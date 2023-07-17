@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: dimgray;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+h2::before {
+    content: "|";
+    margin-right: 10px;
+    color: dimgray;
+    font-size: 24pt;
+}
+
+h3::before {
+    content: "|";
+    margin-right: 10px;
+    color: dimgray;
+    font-size: 20pt;
+}
+
+p {
+    color: dimgray;
+}
+
+.secondary-text {
+    margin: 5px 20px;
+    color: darkgray;
+}
+
+img {
+    margin: auto;
+}
+
+sup {
+    text-decoration: underline;
+}
+
+.color {
+    display: inline-block;
+    margin: 1px 0;
+    border-radius: 2px;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
